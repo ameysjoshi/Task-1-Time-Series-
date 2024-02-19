@@ -1,8 +1,6 @@
 # Task-1-Time-Series-
 The task is to write an algorithm that reads the data sequentially (one by one) according to  timestamp and clusters the data coming from different sensors (use sensor_id) and saves the  fused data to a new CSV file where each entry should have f_timestamp, f_id, cluster_data,  f_u_id.
 
-The link for the video presentation of the solution is: https://drive.google.com/file/d/1KsrKHkzdl8b4GdDcZViCh_yYK11Qnt7o/view?usp=sharing
-
 I have used DBSCAN algorithm for the task. Numpy and Pandas libraries are used for data handling and manipulation. 
 The data from the test_Data_1 CSV file is loaded and sorted by timestamp_id to ensure sequential handling. The necessary parameters for DBSCAN algorithm are defined and clustering is performed.
 
